@@ -21,7 +21,7 @@ export const sharedPageComponents: SharedLayout = {
   ],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
+      GitHub: "https://github.com/xuan-insr/neura-weaver/tree/v4",
     },
   }),
 }
