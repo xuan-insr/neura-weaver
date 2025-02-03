@@ -13,7 +13,7 @@ tags:
 
 
 > [!note]
-> [Wikipedia](https://en.wikipedia.org/wiki/Security_(finance)) 中指出，证券通常是指任何形式的 [[Financial Instrument]]；但其法律定义在不同司法管辖区有所不同。为避免过分纠缠于分类，我们将核心内容放在 [[Financial Instrument]] 中展开。
+> [Wikipedia](https://en.wikipedia.org/wiki/Security_(finance)) 中指出，证券通常是指任何形式的 [[Financial instrument | 金融工具]]；但其法律定义在不同司法管辖区有所不同。为避免过分纠缠于分类，我们将核心内容放在 [[Financial instrument | 金融工具]] 中展开。
 
 ### 中国和美国法律对证券的定义
 
