@@ -13,7 +13,7 @@ tags:
 > 
 > 在我看来，其核心是非线性、非层级的、贴近自然生成式思考的信息组织方式。它易于动态扩展信息和建立联系，有助于在记录过程中减少损失，并帮助我们获得洞察。
 
-### 阅读 [Networked Thought](https://jzhao.xyz/posts/networked-thought)
+### [[Reading | 阅读]] [Networked Thought](https://jzhao.xyz/posts/networked-thought)
 
 信息时代，数据的规模已经超出了我们能够有意义地利用的能力；搜索引擎的能力也因 [[SEO Hack]]、广告和标题党而受损。
 
