@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "https://xuan-insr.github.io/neura-weaver/",
+    baseUrl: "xuan-insr.github.io/neura-weaver",
     ignorePatterns: ["templates", ".obsidian"],
     defaultDateType: "created",
     generateSocialImages: false,
