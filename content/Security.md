@@ -4,6 +4,7 @@ draft: false
 permalink: security
 tags:
     - Finance
+description: 证券 (Security) 是一种可流通的、代表一定权利的标准化法律凭证。
 ---
 
 > [!abstract]

@@ -3,6 +3,7 @@ title: 阅读
 draft: false
 permalink: reading
 tags: []
+description: 阅读是运用语言文字来获取信息、认识世界、发展思维，并获得审美体验与知识的活动。我在这里记录关于阅读本身的体验和思考。
 ---
 
 > [!abstract]

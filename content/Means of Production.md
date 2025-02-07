@@ -3,6 +3,7 @@ title: 生产资料
 draft: false
 permalink: means-of-production
 tags: []
+description: 生产资料 (Means of Production) 指人们从事物质资料生产所必需的一切物质条件，是劳动资料和劳动对象的总和。
 ---
 
 > [!abstract]

@@ -4,6 +4,7 @@ draft: false
 permalink: capital
 tags:
     - Finance
+description: 资本 (Capital) 在不同语境下有不同含义。
 ---
 
 > [!abstract]

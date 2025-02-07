@@ -5,6 +5,7 @@ permalink: digital-gardens
 tags:
     - Readings
     - Info-Management
+description: 数字花园是一种信息管理和创作的方式。在我看来，其核心是非线性、非层级的、贴近自然生成式思考的信息组织方式。它易于动态扩展信息和建立联系，有助于在记录过程中减少损失，并帮助我们获得洞察。
 ---
 
 > [!abstract]

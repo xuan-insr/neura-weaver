@@ -5,6 +5,7 @@ permalink: quartz-4
 tags:
     - Tools
     - Note-Taking
+description: Quartz 4 是一个基于 Hugo 的静态站点生成器，专门为 Obsidian 设计，能够生成 Graph View 和 Backlinks。
 ---
 
 > [!abstract]

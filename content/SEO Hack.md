@@ -4,6 +4,7 @@ draft: false
 permalink: seo-hack
 tags:
     - Random-notes
+description: SEO (Search Engine Optimization) Hack 是指网站通过各类手段，提高其在搜索引擎中的排名，从而获得更多的流量的做法。
 ---
 
 > [!abstract]

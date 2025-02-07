@@ -1,5 +1,6 @@
 ---
 title: Neura Weaver | 咸鱼暄的外置大脑
+description: Neura Weaver 是咸鱼暄的新博客，基于 Obsidian + Quartz 4，用于实现一种网络式的信息整理。
 ---
 
 > [!abstract]

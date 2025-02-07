@@ -4,6 +4,7 @@ draft: false
 permalink: finance
 tags:
     - Finance
+description: 金融学研究资金的融通，资产在筹资、投资等行为影响下的流动，以及流动过程中的风险管理等问题，目标是实现更优的资源配置和风险管理。
 ---
 
 > [!abstract]

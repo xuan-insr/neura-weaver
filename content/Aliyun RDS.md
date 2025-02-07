@@ -3,6 +3,7 @@ title: Aliyun RDS
 draft: false
 permalink: aliyun-rds
 tags: []
+description: 阿里云关系型数据库服务 (Aliyun Relational Database Service) 是一种稳定可靠、可弹性伸缩的在线数据库服务。
 ---
 
 > [!abstract]

@@ -4,6 +4,7 @@ draft: false
 permalink: asset
 tags:
     - Finance
+description: 资产 (Asset) 是任何有形的或无形的、可以通过参与生产或出售等方式用于产生积极经济价值的资源。
 ---
 
 > [!abstract]
