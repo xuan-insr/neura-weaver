@@ -10,3 +10,5 @@ description: AI Effect 是指，许多曾经被认为是人工智能的技术在
 Ref:
 - [AI Effect](https://en.wikipedia.org/wiki/AI_effect)
 - [How should we define AI?](https://course.elementsofai.com/1/1)
+
+荣格在 [[The Red Book | 红书]] 里说，「神所在的地方，你就不在那里。」
