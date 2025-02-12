@@ -104,9 +104,9 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     const outgoing = details.links ?? []
 
     for (const dest of outgoing) {
-      if (validLinks.has(dest)) {
+      // if (validLinks.has(dest)) {
         links.push({ source: source, target: dest })
-      }
+      // }
     }
 
     if (showTags) {
@@ -122,7 +122,13 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     }
   }
 
-  const neighbourhood = new Set<SimpleSlug>()
+  const allNodes = new Set<SimpleSlug>()
+  links.forEach(link => {
+    allNodes.add(link.source)
+    allNodes.add(link.target)
+  })
+  
+  let neighbourhood = new Set<SimpleSlug>()
   const wl: (SimpleSlug | "__SENTINEL")[] = [slug, "__SENTINEL"]
   if (depth >= 0) {
     while (depth >= 0 && wl.length > 0) {
@@ -139,11 +145,12 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
       }
     }
   } else {
-    validLinks.forEach((id) => neighbourhood.add(id))
-    if (showTags) tags.forEach((tag) => neighbourhood.add(tag))
+    // validLinks.forEach((id) => neighbourhood.add(id))
+    // if (showTags) tags.forEach((tag) => neighbourhood.add(tag))
+    neighbourhood = allNodes
   }
 
-  const nodes = [...neighbourhood].map((url) => {
+  const nodes = [...allNodes].map((url) => {
     const text = url.startsWith("tags/") ? "#" + url.substring(5) : (data.get(url)?.title ?? url)
     return {
       id: url,
@@ -151,8 +158,9 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
       tags: data.get(url)?.tags ?? [],
     }
   })
+
   const graphData: { nodes: NodeData[]; links: LinkData[] } = {
-    nodes,
+    nodes: nodes.filter((n) => neighbourhood.has(n.id)),
     links: links
       .filter((l) => neighbourhood.has(l.source) && neighbourhood.has(l.target))
       .map((l) => ({
