@@ -1,0 +1,5 @@
+---
+aliases:
+  - durability
+permalink: durability
+---
